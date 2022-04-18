@@ -7,4 +7,9 @@ IP address #s is host
 user: robot
 password: C$$E120
 
+Getting Code to brick:
+
+tools>deployment>upload
+
+
 
