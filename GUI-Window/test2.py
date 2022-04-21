@@ -1,2 +1,14 @@
 print("GUI window test")
-print("hello world")
+
+import tkinter
+
+
+def main():
+
+    root = tkinter.Tk()
+    root["background"] = "light blue"
+    root.mainloop()
+    
+main()
+
+
