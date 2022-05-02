@@ -23,19 +23,22 @@ def main():
     frame1 = ttk.Frame(root, padding=100)
     frame1.grid()
 
+#This Is button 1
     on_button = ttk.Button(frame1, text="Level 1")
     on_button.grid()
 
+# This Is button 2
     print_stuff_button = ttk.Button(frame1, text="Level 2")
     print_stuff_button["command"] = lambda: print_word()
     print_stuff_button.grid()
 
-    my_entry_box = ttk.Entry(frame1)
-    my_entry_box.grid()
-
-    print_stuff_button = ttk.Button(frame1, text="New Button")
+# This Is button 3 , type 'Red' for it to say 'you lose' type anything else it will say you win
+    print_stuff_button = ttk.Button(frame1, text="Level 3")
     print_stuff_button["command"] = lambda: print_contents(my_entry_box)
     print_stuff_button.grid()
+
+    my_entry_box = ttk.Entry(frame1)
+    my_entry_box.grid()
 
     root.mainloop()
 
