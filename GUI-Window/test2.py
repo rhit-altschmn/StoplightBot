@@ -32,7 +32,7 @@ def main():
     print_stuff_button["command"] = lambda: print_word()
     print_stuff_button.grid()
 
-# This Is button 3 , type 'Red' it says 'you lose', type 'Green' it says you win
+# This Is button 3 , type 'Red' it says 'you lose', type 'Green' it says 'you win'
     print_stuff_button = ttk.Button(frame1, text="Level 3")
     print_stuff_button["command"] = lambda: print_contents(my_entry_box)
     print_stuff_button.grid()
