@@ -12,7 +12,7 @@ def print_contents(entry_box):
 
     if contents_of_entry_box == "Red":
         print("You Lose")
-    else:
+    if contents_of_entry_box == "Green":
         print("You Win")
 
 def main():
@@ -32,7 +32,7 @@ def main():
     print_stuff_button["command"] = lambda: print_word()
     print_stuff_button.grid()
 
-# This Is button 3 , type 'Red' for it to say 'you lose' type anything else it will say you win
+# This Is button 3 , type 'Red' it says 'you lose', type 'Green' it says you win
     print_stuff_button = ttk.Button(frame1, text="Level 3")
     print_stuff_button["command"] = lambda: print_contents(my_entry_box)
     print_stuff_button.grid()
