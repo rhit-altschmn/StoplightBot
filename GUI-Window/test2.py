@@ -1,6 +1,7 @@
 print("GUI window test")
 
 import tkinter
+import time
 from tkinter import ttk
 
 def print_word():
@@ -20,7 +21,8 @@ def main():
     root = tkinter.Tk()
     root["background"] = "light blue"
 
-    frame1 = ttk.Frame(root, padding=100)
+
+    frame1 = tkinter.Frame(root, background="blue", padx=100, pady=100)
     frame1.grid()
 
 #This Is button 1
