@@ -25,7 +25,7 @@ def main():
     root = tkinter.Tk()
     root["background"] = "light blue"
 
-    frame1 = tkinter.Frame(root, background="red", padx=100, pady=100)
+    frame1 = tkinter.Frame(root, background="#FBEE8F", padx=100, pady=100)
     frame1.grid()
 
 #This Is button 1 push, to say you lose
