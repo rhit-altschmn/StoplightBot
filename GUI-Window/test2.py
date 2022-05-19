@@ -22,7 +22,6 @@ def print_contents(entry_box):
 def main():
 
     root = tkinter.Tk()
-    root["background"] = "light blue"
 
     frame1 = tkinter.Frame(root, background="#FBEE8F", padx=100, pady=100)
     frame1.grid()
