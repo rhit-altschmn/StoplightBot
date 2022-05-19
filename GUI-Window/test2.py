@@ -1,7 +1,6 @@
 print("GUI window test")
 
 import tkinter
-import time
 from tkinter import ttk
 
 def print_word():
