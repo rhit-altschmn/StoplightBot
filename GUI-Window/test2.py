@@ -20,10 +20,11 @@ def print_contents(entry_box):
         print("You Win")
 
 def main():
-
+    color = "#FBEE8F"
     root = tkinter.Tk()
 
-    frame1 = tkinter.Frame(root, background="#FBEE8F", padx=100, pady=100)
+    frame1 = tkinter.Frame(root, background= color, padx=100, pady=100)
+
     frame1.grid()
 
 #This Is button 1 push, to say you lose
