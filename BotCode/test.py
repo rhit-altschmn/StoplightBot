@@ -1,5 +1,6 @@
 #generic motor test
 
+
 from ev3dev2.auto import *
 from ev3dev2.motor import MediumMotor,OUTPUT_A
 
